@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>Lista de Veiculos</title>
+</head>
+<body>
+ <h1>Lista de Veiculos</h1>
+ <ul>
+   <% for(let i=0; i<carros.length; i++) { %>
+     <li><%= carros[i].marca %> - <%= carros[i].modelo %> - <%= carros[i].cor %> - <%= carros[i].kilometragem %></li>
+   <% } %>
+ </ul>
+ <a href="/carros/cadastrar">Cadastrar Carro</a>
+</body>
+</html>
