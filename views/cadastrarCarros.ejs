@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>Cadastrar Carro</title>
+</head>
+<body>
+ <h1>Cadastrar Veiculos</h1>
+ <form method="POST" action="/carros/cadastrar">
+   <label for="marca">Marca:</label>
+   <input type="text" id="marca" name="marca" required><br>
+   <label for="modelo">Modelo:</label>
+   <input type="text" id="modelo" name="modelo" required><br>
+   <label for="cor">Cor:</label>
+   <input type="text" id="cor" name="cor" required><br>
+   <label for="kilometragem">Kilometragem:</label>
+   <input type="text" id="kilometragem" name="kilometragem" required><br>
+   <input type="submit" value="Cadastrar">
+ </form>
+ <a href="/carros">Voltar para a Lista de Veiculos</a>
+</body>
+</html>
+
