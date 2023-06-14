@@ -10,7 +10,7 @@ app.set("view engine", "ejs");
 
 mongoose
   .connect(
-    "mongodb://nicollas:1234@ac-gqkzesf-shard-00-00.et8lrjy.mongodb.net:27017,ac-gqkzesf-shard-00-01.et8lrjy.mongodb.net:27017,ac-gqkzesf-shard-00-02.et8lrjy.mongodb.net:27017/?ssl=true&replicaSet=atlas-ugxed9-shard-0&authSource=admin&retryWrites=true&w=majority",
+    "mongodb://nicollas:mmn132000@ac-tdpdjgz-shard-00-00.hqptjty.mongodb.net:27017,ac-tdpdjgz-shard-00-01.hqptjty.mongodb.net:27017,ac-tdpdjgz-shard-00-02.hqptjty.mongodb.net:27017/?ssl=true&replicaSet=atlas-uaxsks-shard-0&authSource=admin&retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
